@@ -1,0 +1,5 @@
+:root{
+    
+}
+
+body{overflow: hidden;overflow-y: auto;position: relative;margin: 0;padding: 0;color: var(--black);font-family: 'Outfit', sans-serif;min-height: 100vh;}
