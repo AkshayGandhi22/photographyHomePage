@@ -1,5 +1,31 @@
 :root{
-    
+    --font60:60px;
+    --white:#fff;
+    --black:#000;
+    --pad100:100px;
+    --pad40:40px;
+    --pad30:30px;
 }
 
 body{overflow: hidden;overflow-y: auto;position: relative;margin: 0;padding: 0;color: var(--black);font-family: 'Outfit', sans-serif;min-height: 100vh;}
+.button{background-color: transparent; border: 1px solid var(--white); padding:10px; max-width: 200px; width: 100%; text-align: center; display: inline-block; color: var(--white); text-decoration: none; transition:all 0.5s linear;}
+.button:hover{ background-color: var(--white); color: var(--black);}
+img{max-width: 100%;}
+.sectionpad{padding: var(--pad100) 0;}
+
+/* banner Section */
+h1{ font-size:var(--font60); color:var(--white); margin-bottom:var(--pad40);}
+.bannerSlider{background: url(../images/bannerimg1.jpg); background-size: cover; min-height:750px; display: flex; align-items: center; background-position: center;}
+.owl-carousel, .bannerSection{ position: relative;}
+.owl-nav, .num { position: absolute; bottom: 60px; display: flex; max-width:1300px; margin: auto; width: 100%; justify-content: center; left: 0; right: 0;  }
+.owl-nav button span{display: none;}
+.owl-nav button{ position: relative;}
+.owl-nav button::after{ content: ''; position: absolute; left: 0; top: 0; background: url(../images/arrow.svg)no-repeat; height: 30px; width: 30px; background-position: center;}
+.owl-nav button.owl-next::after{ right: 0; left: auto;}
+.owl-nav button.owl-prev::after{ left: 0; rotate: 180deg;}
+.num{color: var(--white); z-index: 1; color: var(--white); border-top: 1px solid  var(--white); padding-top: var(--pad30);}
+/* banner Section */
+
+/* gallarySection */
+.gallaryimg img + img{ padding-top: var(--pad30); }
+/* gallarySection */

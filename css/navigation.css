@@ -1,12 +1,12 @@
 .bodyover{overflow: hidden;}
 .navz{z-index: 3;}
 .navigation { position: absolute; padding: 28px 0;  width: 100%; top: 0;}
-.mainlogo a{ display: inline-block; font-size: 22PX; text-decoration: none;}
+.mainlogo a{ display: inline-block; font-size: 22PX; text-decoration: none; color: var(--white); font-weight: 800;}
 .navcenter{justify-content: center;}
 .navgap {  gap: 40px; align-items: center;}
 .navgap li a{ padding: 0 !important;}
 .navgap li {position: relative;}
-.navpad .navbar-nav .nav-link {color: var( --light-blue); font-size: 16px;}
+.navpad .navbar-nav .nav-link {color: var( --white); font-size: 16px;}
 .navigation .row{ align-items: center;}
 .navpad .container-fluid{ align-items: flex-start !important;}
 .dropdown-menu li{ margin: 0;}
